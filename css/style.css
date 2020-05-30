@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #70787b;
+  color: blanchedalmond;
+  font-family: "Poppins", sans-serif;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav {
+  position: fixed;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 0 0.5rem;
+}
+
+ul li a {
+  color: #e8e8e8;
+  text-decoration: none;
+}
