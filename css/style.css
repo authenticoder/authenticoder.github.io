@@ -82,7 +82,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
   }
@@ -97,6 +97,16 @@ nav ul li a:hover {
 
   .burger {
     display: block;
+  }
+
+  .home {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .intro {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -127,10 +137,38 @@ nav ul li a:hover {
   transform: rotate(45deg) translate(-7px, -5px);
 }
 
+.home {
+  width: 80%;
+  height: 100%;
+  margin: 50vh auto;
+  /* color: #202c59; */
+  color: #272727;
+}
+
 p {
+  font-size: 1.2rem;
+}
+
+.intro {
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+span {
+  background-color: #202c59;
+  color: #faffd8;
+  padding: 0.5rem;
+}
+
+ul a {
+  color: #202c59;
+  padding: 0.5rem;
+}
+/* p {
   color: #272727;
   font-family: "Montserrat", sans-serif;
   margin: 8.5vh auto;
   padding: 0 7rem;
   text-align: justify;
-}
+} */
