@@ -213,7 +213,7 @@ span {
 
   #about {
     grid-template-columns: 1fr;
-    padding: 5vh;
+    padding: 2vh;
   }
 
   #work {
