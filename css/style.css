@@ -169,6 +169,11 @@ footer {
   text-align: center;
 }
 
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* Other versions */
 @media screen and (max-width: 1024px) {
   nav ul {
