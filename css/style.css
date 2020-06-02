@@ -94,7 +94,7 @@ p {
   /* margin: 1.3rem 0; */
   padding: 1rem 0;
   line-height: 2;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .intro i {
@@ -167,6 +167,7 @@ span.bg {
 /* Footer */
 footer {
   text-align: center;
+  color: #faffd8;
 }
 
 footer a {
@@ -223,7 +224,7 @@ footer a {
 
   .intro {
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
     padding: 1rem 0;
   }
 
