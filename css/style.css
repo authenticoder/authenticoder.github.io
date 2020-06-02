@@ -180,6 +180,9 @@ footer a {
   nav ul {
     width: 60%;
   }
+  #about img {
+    display: none;
+  }
 
   #work {
     grid-template-columns: repeat(2, 1fr);
@@ -235,6 +238,10 @@ footer a {
   #about {
     grid-template-columns: 1fr;
     padding: 2vh;
+  }
+
+  #about img {
+    display: none;
   }
 
   #work {
