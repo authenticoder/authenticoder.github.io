@@ -164,7 +164,8 @@ span.bg {
 }
 
 /* Footer */
-footer {
+footer,
+footer p {
   text-align: center;
   color: #faffd8;
 }
