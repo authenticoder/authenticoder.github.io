@@ -171,7 +171,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #000;
+  color: #faffd8;
 }
 
 /* Other versions */
@@ -216,10 +216,6 @@ footer a {
     display: block;
   }
 
-  .intro {
-    padding: 1rem 0;
-  }
-
   .home {
     width: 100%;
     padding: 10vh 3vh;
@@ -228,6 +224,7 @@ footer a {
   .intro {
     width: 100%;
     margin: 0 auto;
+    padding: 1rem 0;
   }
 
   .home {
