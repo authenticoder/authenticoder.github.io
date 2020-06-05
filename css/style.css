@@ -119,9 +119,13 @@ span.bg {
   background-color: #faffd8;
 }
 
+#about img {
+  width: 100%;
+}
+
 #about h2 {
   margin-bottom: 1rem;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 /* Work Section */
@@ -129,7 +133,7 @@ span.bg {
   text-align: center;
   margin: 1rem;
   color: #faffd8;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 #work a {
