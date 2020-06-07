@@ -158,6 +158,11 @@ span.bg {
   transition: 0.3s ease-in-out;
 }
 
+.item h3 {
+  color: #faffd8;
+  padding: 0.5rem 1rem;
+}
+
 .btn-light,
 .btn-dark {
   color: #faffd8;
