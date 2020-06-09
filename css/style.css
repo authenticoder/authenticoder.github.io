@@ -15,7 +15,7 @@ body {
   background-color: #202c59;
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
-  /* font-family: "Montserrat", sans-serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .marker {
@@ -81,7 +81,7 @@ ul a {
 .home {
   display: grid;
   grid-template-columns: 50%;
-  padding: 20vh;
+  padding: 16vh;
   color: #faffd8;
 }
 
@@ -109,13 +109,11 @@ span.bg {
 #about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 50%; */
   grid-gap: 20px;
   padding: 10vh;
   color: #272727;
   font-size: 1.3rem;
   line-height: 1.5;
-  font-weight: 700;
   background-color: #faffd8;
 }
 
