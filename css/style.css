@@ -78,11 +78,15 @@ ul a {
 }
 
 /* Home */
-.home {
+#home {
   display: grid;
-  grid-template-columns: 50%;
+  grid-template-columns: 50% 50%;
   padding: 16vh;
   color: #faffd8;
+}
+
+#home img {
+  width: 100%;
 }
 
 p {
@@ -91,7 +95,6 @@ p {
 
 .intro {
   font-family: "Montserrat", sans-serif;
-  /* margin: 1.3rem 0; */
   padding: 1rem 0;
   line-height: 2;
 }
@@ -105,6 +108,8 @@ span.bg {
   color: #202c59;
   padding: 0.5rem;
 }
+
+/* About Section */
 
 #about {
   display: grid;
@@ -191,6 +196,10 @@ footer a {
     display: none;
   }
 
+  #home img {
+    display: none;
+  }
+
   #work {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -199,6 +208,10 @@ footer a {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+
+  #home img {
+    display: none;
   }
 
   nav ul {
@@ -227,19 +240,16 @@ footer a {
     display: block;
   }
 
-  .home {
+  #home {
     width: 100%;
     padding: 10vh 3vh;
+    grid-template-columns: 100%;
   }
 
   .intro {
     width: 100%;
     margin: auto;
     padding: 1rem 0;
-  }
-
-  .home {
-    grid-template-columns: 100%;
   }
 
   #about {
