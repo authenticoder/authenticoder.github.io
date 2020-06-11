@@ -27,11 +27,12 @@ nav {
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 8vh;
   background-color: #202c59;
   min-width: 100vw;
+  padding: 0 5rem;
 }
 
 nav ul {
@@ -81,7 +82,7 @@ ul a {
 #home {
   display: grid;
   grid-template-columns: 50% 50%;
-  padding: 16vh;
+  padding: 15vh 10vh;
   color: #faffd8;
 }
 
@@ -192,13 +193,6 @@ footer a {
   nav ul {
     width: 60%;
   }
-  #about img {
-    display: none;
-  }
-
-  #home img {
-    display: none;
-  }
 
   #work {
     grid-template-columns: repeat(2, 1fr);
@@ -212,6 +206,10 @@ footer a {
 
   #home img {
     display: none;
+  }
+
+  nav {
+    padding: 0 1.5rem;
   }
 
   nav ul {
