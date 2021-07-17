@@ -145,7 +145,7 @@ span.bg {
 }
 
 #work {
-  padding: 1rem;
+  padding: 5vh 10vh;
   /* border: 2px solid white; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -181,15 +181,18 @@ span.bg {
 #blog div {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin: 20px auto;
+  width: 75%;
+  margin: 60px auto;
   padding: 20px;
-  /* border: 1px solid red; */
 }
 
-#blog h1,
-#blog h3 {
+#blog h1 {
   color: #829ce8;
+  font-size: 2em;
+}
+#blog h2 {
+  color: #829ce8;
+  font-size: 1.6em;
 }
 
 .centerMe {
@@ -197,8 +200,8 @@ span.bg {
   border-bottom: 1px solid #829ce8;
 }
 
-ul {
-  /* border: 1px solid red; */
+ul,
+ol {
   padding: 20px;
 }
 
@@ -207,9 +210,10 @@ ul li {
 }
 
 #blog p,
-#blog ul li {
+#blog ul li,
+#blog ol li {
   color: #faffd8;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 #blog h1,
 #blog h2,

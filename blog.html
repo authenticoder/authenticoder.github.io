@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Section</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        a {
+            color: #faffd8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <h3>${AA}™</h3>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="index.html">My Work</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+
+    <section id="blog">
+        <div>
+          <h1>Comparing Design Mockups To Code Result</h1>
+          <p class="centerMe">17 Jul 2021</p>
+          <p>This is not my blog. It's just an example blog I got from <a href="https://ishadeed.com/article/compare-design-to-code-result/"> here</a>.</p>
+          <p>If you are a UI designer who codes HTML or CSS, then you are likely familiar with how to compare the coded design result to the original design mockup. The designer eye is more trained to notice differences in alignment, font size, color, and alignment. The eye just gets used to it.</p>
+          <p>However, if the person in charge of the UI development doesn’t have any design experience, it becomes more challenging. It has happened to me that developers claimed the coded result was consistent with the original design, but it wasn’t. This article will share my experience as a designer who codes on how to compare a design mockup to the coded result, along with some tips and tricks.</p>
+          <p>Let’s get started!</p>
+    
+          <h2>Introduction</h2>
+          <p>Comparing a design mockup to the coded result is as important as designing a polished UI. If each component in a web page has something different from the design, then you will end up with a slightly different result from the design mockup. This isn’t good.</p>
+    
+          <p>Let’s take the following example.</p>
+          <img src="images/intro.png" alt="intro1">
+          <p>Can you guess what is the difference(s) between the design and the code result? It can be tricky, but there are four differences</p>
+          <ul>
+            <li>Radius</li>
+            <li>Color</li>
+            <li>Font Size</li>
+            <li>Shadow</li>
+          </ul>
+    
+          <p>Ok, enough guessing. Here are the differences:</p>
+          <img src="images/intro-2.png" alt="intro2">
+
+          <p>If you pay closer attention, you will notice what is different from the design. You may not see them at the first glance though. I placed the design above the coded result, notice the areas where they don’t match.</p>
+          <img src="images/intro-3.png" alt="intro3">
+
+          <p>This isn’t accepted by a front-end developer. A designer has spent time and effort working on a consistent design. As a developer, we expect that you will give it the same attention and care.</p>
+          <p>I’m not an advocate of pixel perfection as a term. In fact, I wrote a deep dive article about that and I recommend you to read it. Instead of focusing on the whole process of comparing a design on measuring pixels, it can be focused on look & feel and we can take pixel perfection only when it’s really needed.</p>
+          <p>Consider the following example.</p>
+          <img src="images/intro-4-1.png" alt="intro4">
+
+          <p>The differences in the coded result can’t be overlooked. There are some clear details that make the result looks unprofessional. Such things should be perfect as per the design.</p>
+          <p>Here is a figure that shows the spacing design details in the previous mockup.</p>
+          <img src="images/intro-4-2.png" alt="intro4">
+
+          <p>The same applies to the font sizes. Such details can’t be missed, and they must be an exact implementation as per the design as they can change the look & feel of the proposed design.</p>
+          <p>With that, let’s explore the different ways to compare a design to the implemented result.</p>
+
+          <h2>How To Compare</h2>
+          <p>I will focus on how we can compare a design against implementation. Being able to decide if two things are the same is not easy, and I hope that the next few ways of doing so will make it clear for you.</p>
+
+          <h2>Overlapping design and implementation</h2>
+          <img src="images/compare-1.png" alt="compare1">
+
+          <p>In this method, we need to place the implementation above the design and try to spot the differences. To do that, we can do one of the following:</p>
+          <ol>
+              <li>Take a screenshot for either a full page or a specific component and place it in a design app</li>
+              <li>Exporting the design and adding it in the browser as a background-image or an &lt;img&gt; in the browser</li>
+              <li>Open the design and the code result in separated tabs</li>
+          </ol>
+
+          <p>First, I want to show you the UI that will be used as an example in this article. It’s an imaginative delivery website, and I will focus on the header and hero section. Here it is:</p>
+          <img src="images/compare-ui-1.jpg" alt="compare1">
+        </div>
+      </section>
+</body>
+
+<script src="index.js"></script>
+</html>
