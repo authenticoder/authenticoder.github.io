@@ -68,11 +68,12 @@ ul a {
 .burger {
   display: none;
   cursor: pointer;
+  background-color: #829ce8;
 }
 
 .burger div {
-  width: 30px;
-  height: 4px;
+  width: 25px;
+  height: 3px;
   background-color: #faffd8;
   margin: 5px;
   transition: all 0.3s ease;
@@ -335,6 +336,9 @@ footer a {
 
   .burger {
     display: block;
+    border: 2px solid #faffd8;
+    border-radius: 50%;
+    padding: 3px;
   }
 
   #home {
