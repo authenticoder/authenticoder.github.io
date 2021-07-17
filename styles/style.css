@@ -177,6 +177,46 @@ span.bg {
   margin-bottom: 0.3rem;
 }
 
+/* Blog Section */
+#blog div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  /* border: 1px solid red; */
+}
+
+#blog h1,
+#blog h3 {
+  color: #829ce8;
+}
+
+.centerMe {
+  padding: 15px;
+  border-bottom: 1px solid #829ce8;
+}
+
+ul {
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+
+ul li {
+  list-style: square;
+}
+
+#blog p,
+#blog ul li {
+  color: #faffd8;
+  margin-bottom: 15px;
+}
+#blog h1,
+#blog h2,
+#blog .centerMe {
+  text-align: center;
+}
+
 /* Footer */
 footer,
 footer p {
