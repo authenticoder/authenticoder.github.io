@@ -245,7 +245,7 @@ code {
   border-radius: 3px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   #blog div {
     width: 100%;
   }
@@ -253,6 +253,22 @@ code {
   #blog img {
     width: 100%;
     height: 250px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #blog div {
+    width: 90%;
+  }
+
+  #blog img {
+    width: 100%;
+    height: 500px;
+  }
+
+  #blog img.resize {
+    width: 100%;
+    height: 200px;
   }
 }
 
