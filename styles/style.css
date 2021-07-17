@@ -146,7 +146,6 @@ span.bg {
 
 #work {
   padding: 5vh 10vh;
-  /* border: 2px solid white; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
@@ -164,8 +163,12 @@ span.bg {
 }
 
 .item h3 {
-  color: #faffd8;
+  color: #829ce8;
   padding: 0.5rem 1rem;
+}
+
+.center h1 {
+  color: #829ce8;
 }
 
 .btn-light,
@@ -193,8 +196,6 @@ span.bg {
 #blog h2 {
   color: #829ce8;
   font-size: 1.6em;
-  /* margin-top: 12px; */
-  /* margin-bottom: 12px; */
 }
 
 #blog p {
@@ -270,6 +271,7 @@ footer a {
 
   #work {
     grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
   }
 }
 
