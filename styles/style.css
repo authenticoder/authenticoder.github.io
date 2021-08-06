@@ -81,10 +81,13 @@ ul a {
 
 /* Home */
 #home {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
   padding: 15vh 10vh;
   color: #faffd8;
+  /* border: 1px solid red; */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 #home img {
@@ -111,6 +114,17 @@ span.bg {
   padding: 0.5rem;
 }
 
+.arrowdown {
+  /* border: 2px solid red; */
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 3em;
+  color: #829ce8;
+}
+
 /* About Section */
 
 #about {
@@ -135,6 +149,11 @@ span.bg {
 
 /* Work Section */
 .center {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.center h1 {
   text-align: center;
   margin: 1rem;
   color: #faffd8;
