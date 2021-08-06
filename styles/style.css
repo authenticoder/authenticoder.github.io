@@ -79,15 +79,14 @@ ul a {
   transition: all 0.3s ease;
 }
 
-/* Home */
 #home {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
-  display: flex;
-  padding: 15vh 10vh;
-  color: #faffd8;
-  /* border: 1px solid red; */
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10vh;
+  color: #faffd8;;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 #home img {
