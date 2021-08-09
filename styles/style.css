@@ -24,10 +24,6 @@ ol {
   margin-left: 2rem;
 }
 
-.marker {
-  font-family: "Permanent Marker", cursive;
-}
-
 /* header */
 nav {
   position: fixed;
