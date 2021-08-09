@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-color: #202c59;
+  background-color: #343a40;
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -35,30 +35,6 @@ nav {
   padding: 0 5rem;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  width: 38%;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  color: #faffd8;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: none;
-}
-
-ul a {
-  color: #faffd8;
-  padding: 0.5rem;
-}
-
 .logo {
   color: #faffd8;
   letter-spacing: 2px;
@@ -68,7 +44,7 @@ ul a {
 .burger {
   display: none;
   cursor: pointer;
-  background-color: #829ce8;
+  /* background-color: #829ce8; */
 }
 
 .burger div {
@@ -85,7 +61,7 @@ ul a {
   grid-template-columns: 2fr 1fr;
   grid-gap: 20px;
   padding: 10vh;
-  color: #faffd8;;
+  color: #faffd8;
   font-size: 1.3rem;
   line-height: 1.5;
 }
@@ -102,6 +78,10 @@ p {
   font-family: "Montserrat", sans-serif;
   padding: 1rem 0;
   line-height: 2;
+}
+
+ul.intro a{
+  color: #faffd8;
 }
 
 
@@ -174,10 +154,6 @@ span.bg {
   padding: 0.5rem 1rem;
 }
 
-.center h1 {
-  color: #829ce8;
-}
-
 .btn-light,
 .btn-dark {
   color: #faffd8;
@@ -197,7 +173,7 @@ span.bg {
 }
 
 #blog h1 {
-  color: #829ce8;
+  color: #faffd8;
   font-size: 2em;
 }
 #blog h2 {
@@ -220,27 +196,26 @@ span.bg {
 
 .centerMe {
   padding: 15px;
-  border-bottom: 1px solid #829ce8;
+  border-bottom: 1px solid #faffd8;
 }
 
-ul,
-ol {
-  padding: 20px;
-}
-ul li {
-  list-style: square;
-}
 
-#blog p,
-#blog ul li,
-#blog ol li {
-  color: #faffd8;
-  margin: 15px 0;
-}
 #blog h1,
 #blog h2,
 #blog .centerMe {
   text-align: center;
+}
+
+#blog ul {
+  margin-top: 10px;
+}
+
+#blog ul li {
+  margin: 10px 30px;
+}
+
+#blog h3, #blog p, #blog ul {
+  color: #faffd8;
 }
 
 #blog a {
@@ -295,9 +270,6 @@ footer a {
 
 /* Other versions */
 @media screen and (max-width: 1024px) {
-  nav ul {
-    width: 60%;
-  }
 
   #work {
     grid-template-columns: repeat(2, 1fr);
@@ -319,30 +291,6 @@ footer a {
 
   nav {
     padding: 0 1.5rem;
-  }
-
-  nav ul {
-    position: absolute;
-    right: 0;
-    height: 92vh;
-    top: 8vh;
-    background-color: #202c59;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
-    width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  nav ul li {
-    opacity: 0;
-  }
-
-  nav ul li a {
-    color: #faffd8;
   }
 
   .burger {
@@ -401,3 +349,4 @@ footer a {
 .close .line3 {
   transform: rotate(45deg) translate(-7px, -5px);
 }
+
