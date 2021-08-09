@@ -18,6 +18,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ol {
+  color: #faffd8;
+  text-align: justify;
+  margin-left: 2rem;
+}
+
 .marker {
   font-family: "Permanent Marker", cursive;
 }
@@ -66,12 +72,16 @@ nav {
   line-height: 1.5;
 }
 
+#home h1 {
+  font-size: 1.4rem;
+}
+
 #home img {
   width: 100%;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .intro {
@@ -82,6 +92,8 @@ p {
 
 ul.intro a{
   color: #faffd8;
+  font-size: 0.9rem;
+  padding: 5px;
 }
 
 
@@ -131,17 +143,10 @@ span.bg {
   text-decoration: none;
 }
 
-#work {
-  padding: 5vh 10vh;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.7rem;
-}
-
 #work img {
   width: 100%;
-  height: 250px;
-  border: 3px #faffd8 solid;
+  height: auto;
+  /* border: 3px #faffd8 solid; */
 }
 
 #work img:hover {
@@ -177,7 +182,7 @@ span.bg {
   font-size: 2em;
 }
 #blog h2 {
-  color: #829ce8;
+  color: #faffd8;
   font-size: 1.6em;
 }
 
@@ -229,6 +234,8 @@ code {
   border-radius: 3px;
 }
 
+
+
 @media only screen and (max-width: 768px) {
   #blog div {
     width: 100%;
@@ -256,6 +263,14 @@ code {
   }
 }
 
+h5, .h5 {
+  font-size: 1.45rem;
+}
+
+.card {
+  margin: 1rem 0;
+}
+
 /* Footer */
 footer,
 footer p {
@@ -269,13 +284,13 @@ footer a {
 }
 
 /* Other versions */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
 
   #work {
     grid-template-columns: repeat(2, 1fr);
     padding: 5px;
   }
-}
+} */
 
 @media screen and (max-width: 900px) {
   body {
@@ -314,13 +329,6 @@ footer a {
     padding: 10vh 3vh;
   }
 
-  #work {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  #work img {
-    height: 300px;
-  }
 }
 
 .active {
