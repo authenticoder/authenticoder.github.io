@@ -146,7 +146,7 @@ span.bg {
 }
 
 #work img:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   transition: 0.3s ease-in-out;
 }
 
