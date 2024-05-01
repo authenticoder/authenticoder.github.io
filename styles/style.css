@@ -31,3 +31,12 @@ div.socials {
 a {
     color: black;
 }
+
+
+@media screen and (max-width: 600px){
+    div.container {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+}
