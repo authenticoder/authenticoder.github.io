@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: monospace;
     background-color: beige;
-    font-size: 5em;
 }
 
 div.revamp {
@@ -17,6 +17,7 @@ div.revamp {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    font-size: 2rem;
 }
 
 div.socials {
